@@ -1,13 +1,123 @@
-header{
-    background-color: rgba(229, 84, 115, 0.10);
+body {
+    font-family: 'Lato';
 }
 
-.banner{
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+}
+
+.banner {
     padding: 50px 240px 147px 240px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 635px;
     height: 800px;
+    background-position: bottom left;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 43px;
+    margin-top: 32px;
+}
+
+.banner-greeting {
+    display: flex;
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    width: 634px;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.banner-content {
+    max-width: 1483px;
+}
+
+/* main section styles */
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 178px;
+    margin-bottom: 0;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    width: 594px;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-left: 663px;
+}
+
+.featured-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pink {
+    padding: 110px 78px 0px 76px;
+    background-color: #A7216226;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+}
+
+.paste {
+    padding: 110px 78px 0px 76px;
+    margin-bottom: 0px;
+    background-color: #0597A026;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+}
+
+.green {
+    padding: 110px 78px 0px 76px;
+    background-color: #477D1126;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+}
+
+.caption {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+
+.service-container {
+    display: flex;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+}
 }
