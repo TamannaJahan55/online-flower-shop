@@ -86,7 +86,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    width: 1440px;
+    width: 1200px;
     margin: 48px 100px 32px;
 }
 
@@ -143,11 +143,52 @@ header {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     align-items: center;
+    text-align: center;
     gap: 175px;
     width: 1075px;
     height: 320px;
-    margin: 128px 80px 128px;
-    padding: 86px 232px;
+    margin: 128px 140px;
+    padding: 86px 175px;
+}
+
+#package{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 128px 700px 24px;
+}
+
+.package-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 48px 140px 80px;
+    gap: 24px;
+}
+
+.event-caption {
+    color: #272727;
+    font-size: 24px;
+    justify-content: space-between;
+    gap: 307px;
+}
+
+.event1{
+    margin: 0px 230px 128px;
+    text-align: center;
+}
+
+.event2{
+    margin: 0px 230px 128px;
+    text-align: center;
+}
+
+.event3{
+    margin: 0px 230px 128px;
+    text-align: center;
 }
 
 #instagram {
@@ -164,7 +205,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 1440px;
-    margin: 48px 100px 128px;
+    margin: 48px 140px 128px;
     gap: 24px;
 }
 
@@ -217,7 +258,7 @@ header {
     height: 400px;
     background-image: url('../Flower\ Asset/Rectangle 9.png');
     justify-content: center;
-    margin: 128px 100px;
+    margin: 128px 140px;
 }
 
 .deal {
