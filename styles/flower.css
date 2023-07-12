@@ -1,5 +1,6 @@
 body {
     font-family: 'Lato';
+    width: 1922px;
 }
 
 header {
@@ -49,9 +50,6 @@ header {
     font-size: 18px;
     margin-top: 32px;
 }
-
-.banner-content {
-    max-width: 1483px;
 }
 
 /* main section styles */
@@ -60,8 +58,10 @@ header {
     color: #272727;
     text-align: center;
     font-size: 40px;
-    margin-top: 178px;
-    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 128px 700px 24px;
 }
 
 .section-description {
@@ -69,8 +69,7 @@ header {
     text-align: center;
     width: 594px;
     font-size: 18px;
-    margin-top: 24px;
-    margin-left: 663px;
+    margin: 24px 550px 48px;
 }
 
 .featured-container {
@@ -78,6 +77,8 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
+    width: 1440px;
+    margin: 48px 100px 128px;
 }
 
 .pink {
@@ -114,10 +115,58 @@ header {
 
 .service-container {
     display: flex;
-    width: 1440px;
-    height: 320px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     align-items: center;
+    gap: 175px;
+    width: 1075px;
+    height: 320px;
+    margin: 195px 80px 128px;
+    padding: 86px 232px;
 }
+
+.instagram-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 48px 100px 128px;
+    gap: 24px;
+}
+
+.banner2 {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 1000px;
+    height: 620px;
+    padding: 100px 395px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 128px 0px;
+}
+}
+
+.profile-pic2 {
+    width: 318px;
+    height: 420px;
+    background-position: bottom left;
+}
+
+.offer {
+    text-align: center;
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    justify-content: center;
+    width: 1440px;
+    height: 449px;
+    margin: 128px 100px;
+    ;
+}
+
+footer {
+    background-color: #111010;
+    text-align: center;
+    width: 1922px;
+    height: 449px;
+    margin-top: 128px;
 }
